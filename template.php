@@ -27,27 +27,28 @@
 	</div>	
 </div>
 
+<!-- top nav bar --> 
+<div class="row">
+	<div class="col-md-12">	
+		<?php
+			$HOME="";
+			$HR_ACTIVE="";  #EDIT THIS: values: HOME, NETWORK_ED, EVENTS, FELLOWS, DOCTORAL_PROGRAMS
+			include 'header.php';
+		?>
+	</div>	
+</div>
+
 <!-- body -->
 <div class="row">
 	<div class="col-md-3">	
 		<!-- nav bar -->
 		<?php
 			$HOME="";
-			$NAV_ACTIVE=""; #EDIT THIS: values: HOME, NETWORK_ED, EVENTS, FELLOWS, DOCTORAL_PROGRAMS
+			$NAV_ACTIVE=""; #EDIT THIS: values: VISION, MISSION, CORE, TEAM, CONTACT
 			include 'navbar.php';
 		?>
 	</div>	
 	<div class="col-md-9">	
-		<!-- top nav bar --> 
-		<div class="row">
-			<div class="col-md-12">	
-				<?php
-					$HOME="";
-					$HR_ACTIVE="";  #EDIT THIS: values: VISION, MISSION, CORE, TEAM, CONTACT
-					include 'header.php';
-				?>
-			</div>	
-		</div>
 		<!-- main body -->
 		<div class="row">
 			<div class="col-md-12">	

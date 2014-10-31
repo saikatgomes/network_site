@@ -1,22 +1,25 @@
+
 <?php
     if (empty($HOME)) {
         $HOME="http://pages.cs.wisc.edu/~saikat/projects/network_site/";
     }
-    $vision_class="";
-    $mission_class="";
-    $core_class="";
-    $team_class="";
-    $contact_class="";
+    $home_class="";
+    $network_class="";
+    $events_class="";
+    $fellows_class="";
+    $doctoralprograms_class="";
     $active_class="class='active'";
     if (!empty($HR_ACTIVE)){
-        if(strcmp($HR_ACTIVE,"VISION")==0){
-            $vision_class =$active_class;
-        } elseif(strcmp($HR_ACTIVE,"MISSION")==0){
-            $mission_class =$active_class;
-        } elseif(strcmp($HR_ACTIVE,"CORE")==0){
-            $core_class =$active_class;
-        } elseif(strcmp($HR_ACTIVE,"TEAM")==0){
-            $team_class =$active_class;
+        if(strcmp($HR_ACTIVE,"HOME")==0){
+            $home_class =$active_class;
+        } elseif(strcmp($HR_ACTIVE,"NETWORK_ED")==0){
+            $network_class =$active_class;
+        } elseif(strcmp($HR_ACTIVE,"EVENTS")==0){
+            $events_class =$active_class;
+        } elseif(strcmp($HR_ACTIVE,"FELLOWS")==0){
+            $fellows_class =$active_class;
+        } elseif(strcmp($HR_ACTIVE,"DOCTORAL_PROGRAMS")==0){
+            $doctoralprograms_class =$active_class;
         } elseif(strcmp($HR_ACTIVE,"CONTACT")==0){
             $contact_class =$active_class;
         }
@@ -42,10 +45,10 @@
       </ul>
 	<b>
       <ul class="nav navbar-nav navbar-right">
-        <li <?php echo $vision_class?>><a href=<?php echo $HOME."vision.php" ?>>Vision</a></li>
-        <li <?php echo $mission_class?>><a href=<?php echo $HOME."mission.php" ?>>Mission</a></li>
-        <li <?php echo $core_class?>><a href=<?php echo $HOME."core.php" ?>>Core Values</a></li>
-        <li <?php echo $team_class?>><a href=<?php echo $HOME."team.php" ?>>Our Team</a></li>
+        <li <?php echo $network_class?>><a href=<?php echo $HOME."network.php" ?>>NetworkEd</a></li>
+        <li <?php echo $events_class?>><a href=<?php echo $HOME."events.php" ?>>Events</a></li>
+        <li <?php echo $fellows_class?>><a href=<?php echo $HOME."fellows.php" ?>>Fellows</a></li>
+        <li <?php echo $doctoralprograms_class?>><a href=<?php echo $HOME."doc.php" ?>>Doctoral Research Program</a></li>
         <li <?php echo $contact_class?>><a href=<?php echo $HOME."contact.php" ?>>Contact Us</a></li>
       </ul>
 	</b>
