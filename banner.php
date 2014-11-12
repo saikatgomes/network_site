@@ -1,12 +1,8 @@
 <div class="row">
-	<div class="col-md-4">
-	<h1>The Network</h1>
-	<br><small>Wisconsin Collaboraitive Education Research</small>
-	<br><br><br>
-	</div>
-	<div class="col-md-8">
-		<center>
-		SOME IMAGE HERE!
-		</center>
-	</div>	
+	<div class="col-md-12" style="background-color:#d9230f">
+		<!-- <img src="img/banner.gif"> -->
+		<h1>
+	    	&nbsp;&nbsp;<b><font color="000000">Network</font><font color="ffffff">Ed</font></b>
+		</h1>
+    </div>	
 </div>

@@ -27,41 +27,129 @@
 	</div>	
 </div>
 
-<!-- top nav bar --> 
-<div class="row">
-	<div class="col-md-12">	
-		<?php
-			$HOME="";
-			$HR_ACTIVE="";  #EDIT THIS: values: HOME, NETWORK_ED, EVENTS, FELLOWS, DOCTORAL_PROGRAMS
-			include 'header.php';
-		?>
-	</div>	
+<div class="row" style="height:100%">i
+    <div class="col-md-12">
+        <div class="row">
+		    <div class="col-md-12">
+		          <br>
+		            <center>
+		            <button type="button" class="btn btn-primary btn-lg">About</button>
+		            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		            <button type="button" class="btn btn-link btn-lg">Help Desk</button>
+		            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		            <button type="button" class="btn btn-link btn-lg">Events</button>
+		            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		            <button type="button" class="btn btn-link btn-lg">Fellows</button>
+		            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		            <button type="button" class="btn btn-link btn-lg">Partners</button>
+		            </center>
+		          <br>
+		    </div>
+        </div>
+		
+		<div class="row">
+		    <div class="col-md-1">
+				&nbsp;			
+			</div>
+		    <div class="col-md-10">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+					</ol>
+
+					<div class="carousel-inner" role="listbox">
+						<div class="item active left">
+							<br><br><br><br><br><br><br>
+							<?php include 'about.php';?>
+							<br><br><br><br><br><br><br>
+						</div>
+						<div class="item next left">
+							<br><br><br><br><br><br><br>
+							<?php include 'help.php';?>
+							<br><br><br><br><br><br><br>
+						</div>
+						<div class="item">
+							<br><br><br><br><br><br><br>
+							<?php include 'events.php';?>
+							<br><br><br><br><br><br><br>
+						</div>
+						<div class="item">
+							<br><br><br><br><br><br><br>
+							<?php include 'fellows.php';?>
+							<br><br><br><br><br><br><br>
+						</div>
+						<div class="item">
+							<br><br><br><br><br><br><br>
+							<?php include 'partners.php';?>
+							<br><br><br><br><br><br><br>
+						</div>
+					</div>
+
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+		    </div>
+		    <div class="col-md-1">
+				&nbsp;			
+			</div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    </div>
 </div>
 
-<!-- body -->
-<div class="row">
-	<div class="col-md-3">	
-		<!-- nav bar -->
-		<?php
-			$HOME="";
-			$NAV_ACTIVE="HOME"; #EDIT THIS: values: VISION, MISSION, CORE, TEAM, CONTACT
-			include 'navbar.php';
-		?>
-	</div>	
-	<div class="col-md-9">	
-		<!-- main body -->
-		<div class="row">
-			<div class="col-md-12">	
-				<center>
-					SOME STUFF HERE
-				</center>
-			</div>	
-		</div>
-	</div>	
-</div>
+
+
+
 
 <!-- bottom -->
-<div class="row">
+<div class="row" style="position:absolute;bottom:0;width:100%">
 	<div class="col-md-12">	
 		<?php
 			include 'bottom.php';
