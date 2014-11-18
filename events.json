@@ -21,8 +21,8 @@
     "Date": "Oct, 2014", 
 	"Event_Name": 
 		[
-			"WASDA Reception",
-			"Introductory Meeting reg: Sepcial Education"
+			"Wisconsin Rising Film Showing",
+			"Network Info Session"
 		],
 	"Event_Link": 
 		[
@@ -31,52 +31,46 @@
 		],
 	"Event_Details":
 		[
-			"Details 1",
-			"Details 2"
+			"Co sponsored by ELPA. EPS and The Network",
+			"WCER Business Office & Technical Services"
 		]
   },
   {
     "Date": "Nov, 2014", 
 	"Event_Name": 
 		[
-			"WASDA Reception",
-			"Introductory Meeting reg: Sepcial Education"
+			"American Education Week"
 		],
 	"Event_Link": 
 		[
-			"#",
 			"#"
 		],
 	"Event_Details":
 		[
-			"Co sponsored by WASDA, ELPA and the Network",
-			"Carolyn Stanford-Taylor, DPI<br>Barb Van Heron, DPI<br>Kimber Wilkerson, RPSE"
+			"Network Info Table Presentation"
 		]
   },
   {
     "Date": "Dec, 2014", 
 	"Event_Name": 
 		[
-			"WASDA Reception",
-			"Introductory Meeting reg: Sepcial Education"
+			"DRP Advisory Board Meeting"
 		],
 	"Event_Link": 
 		[
-			"#",
 			"#"
 		],
 	"Event_Details":
 		[
-			"Details 1",
-			"Details 2"
+			""
 		]
   },
   {
     "Date": "Jan, 2015", 
 	"Event_Name": 
 		[
-			"WASDA Reception",
-			"Introductory Meeting reg: Sepcial Education"
+			"Opportunity Gap Event",
+			"DRP Poster Fair"
 		],
 	"Event_Link": 
 		[
@@ -85,62 +79,59 @@
 		],
 	"Event_Details":
 		[
-			"Co sponsored by WASDA, ELPA and the Network",
-			"Carolyn Stanford-Taylor, DPI<br>Barb Van Heron, DPI<br>Kimber Wilkerson, RPSE"
+			"",
+			""
 		]
   },
   {
     "Date": "Feb, 2015", 
 	"Event_Name": 
 		[
-			"WASDA Reception",
-			"Introductory Meeting reg: Sepcial Education"
+			"NetworkEd Meeting: Providing tech. resources for struggling families"
 		],
 	"Event_Link": 
 		[
-			"#",
 			"#"
 		],
 	"Event_Details":
 		[
-			"Details 1",
-			"Details 2"
-		]
-  },
-  {
-    "Date": "Mar, 2015", 
-	"Event_Name": 
-		[
-			"WASDA Reception",
-			"Introductory Meeting reg: Sepcial Education"
-		],
-	"Event_Link": 
-		[
-			"#",
-			"#"
-		],
-	"Event_Details":
-		[
-			"Co sponsored by WASDA, ELPA and the Network",
-			"Carolyn Stanford-Taylor, DPI<br>Barb Van Heron, DPI<br>Kimber Wilkerson, RPSE"
+			"Connecting valuable players around the community"
 		]
   },
   {
     "Date": "Apr, 2015", 
 	"Event_Name": 
 		[
-			"WASDA Reception",
-			"Introductory Meeting reg: Sepcial Education"
+			"CESA Conference",
+			"EdCamp",
+			"Girl Rising Film Screening"
 		],
 	"Event_Link": 
 		[
+			"#",
 			"#",
 			"#"
 		],
 	"Event_Details":
 		[
-			"Details 1",
-			"Details 2"
+			"Co sponsored by WCER and The Network",
+			"Sponsored by the The Network",
+			"Co sponsored by the The Network, Morgridge Center of Public Service, WCER, WISCAP & She's the First"
+		]
+  },
+  {
+    "Date": "May, 2015", 
+	"Event_Name": 
+		[
+			"PSN Action Research Event"
+		],
+	"Event_Link": 
+		[
+			"#"
+		],
+	"Event_Details":
+		[
+			"Co sponsored by PSN and The Network"
 		]
   }
 ]
