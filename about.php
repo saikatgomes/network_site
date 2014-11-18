@@ -7,11 +7,9 @@
 	    <h1>		
 			<center>
 			<br>
-			<div class="well well-lg">
 			<b>
-			<font size="100"><font color="d9230f">CONNECT</font><font color="000000"> + </font><font color="d9230f">ENGAGE</font><font color="000000"> = </font><font color="d9230f">TRANSFORM</font></font>
+			<font size="100"><font color="d9230f">CONNECT</font><font color="000000"> + </font><font color="d9230f">ENGAGE</font><font color="000000"> &#8594; </font><font color="d9230f">TRANSFORM</font></font>
 			</b>
-			</div>
 			</center>
 		</h1>
 	</div>
