@@ -136,43 +136,7 @@
 		    <div class="col-md-1">
 				&nbsp;			
 			</div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+        </div>  
     </div>
 </div>
 
@@ -181,7 +145,9 @@
 
 
 <!-- bottom -->
-<div class="row" style="position:absolute;bottom:0;width:100%">
+<!-- 
+<div class="row" style="position:absolute;bottom:0;width:100%"> -->
+<div class="row" style="width:100%">
 	<div class="col-md-12">	
 		<?php
 			include 'bottom.php';

@@ -17,10 +17,10 @@
 </div>
 
 <div class="row">
-	<div class="col-md-1">
+	<div class="col-md-2">
 		&nbsp;
 	</div>
-	<div class="col-md-10">
+	<div class="col-md-8">
 	    <?php
 			$handle = fopen("about.txt", "r");
 			if ($handle) {
@@ -33,7 +33,7 @@
 			fclose($handle);
 		?>
 	</div>
-	<div class="col-md-1">
+	<div class="col-md-2">
 		&nbsp;
 	</div>
 </div>
