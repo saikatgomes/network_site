@@ -1,0 +1,28 @@
+[
+  {
+    "Date": "Sep, 2014", 
+	"Event_Name": 
+		[
+			"WASDA Reception",
+			"Introductory Meeting reg: Sepcial Education"
+		],
+	"Event_Details":
+		[
+			"Details 1",
+			"Details 2"
+		]
+  },
+  {
+    "Date": "Oct, 2014", 
+	"Event_Name": 
+		[
+			"WASDA Reception",
+			"Introductory Meeting reg: Sepcial Education"
+		],
+	"Event_Details":
+		[
+			"Details 1",
+			"Details 2"
+		]
+  }
+]
