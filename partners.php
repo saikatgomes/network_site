@@ -2,17 +2,33 @@
 	<div class="row">
 		<div class="col-md-12">
 		    <h1>		
-				Partners:
+				<b>Partners:</b>
+			<br>
+			<br>
 			</h1>
 		</div>
 	</div>
 
+
+	<div class="row">
+		<div class="col-md-1">
+			&nbsp;
+		</div>
+		<div class="col-md-5">
+			<img src="img/SOE.jpg" height="175">
+		</div>
+		<div class="col-md-5">
+			<img src="img/WCER.jpg" height="175">
+		</div>
+		<div class="col-md-1">
+			&nbsp;
+		</div>
+	</div>
 	<div class="row">
 		<div class="col-md-12">
-		    <img src="http://website.education.wisc.edu/wcer50/wp-content/uploads/2014/09/wcer-soe1.png"> <br><br>
-		    <img src="http://dpi.wi.gov/sites/all/themes/dpi/logo.jpg"> <br><br>
-		    <img src="https://www.education.wisc.edu/images/soe-central/soelogo_171x102.png?sfvrsn=6"> 
-
+			<br>
+			<br>
+			<img src="img/WDPI.jpg" height="175">
 		</div>
 	</div>
 </center>

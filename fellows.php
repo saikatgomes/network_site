@@ -1,11 +1,8 @@
 <center>
-	<div class="row">
-		<div class="col-md-12">
-		    <h1>		
-				Fellows:
-			</h1>
-		</div>
-	</div>
+
+<br>
+<br>
+
 
 <div class="row">
 	<div class="col-md-1">
