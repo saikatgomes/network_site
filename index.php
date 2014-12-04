@@ -90,10 +90,12 @@
 		?>
 		
 		<div class="row">
-		    <div class="col-md-1">
+		    <!--
+            <div class="col-md-1">
 				&nbsp;			
 			</div>
-		    <div class="col-md-10">
+            -->
+		    <div class="col-md-12">
 				<div id="carousel-main" class="carousel slide" data-ride="carousel" data-interval="false">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
@@ -133,9 +135,11 @@
 					</a>
 				</div>
 		    </div>
+            <!--
 		    <div class="col-md-1">
 				&nbsp;			
 			</div>
+            -->
         </div>  
     </div>
 </div>
