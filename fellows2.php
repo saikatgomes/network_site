@@ -18,7 +18,7 @@
 	</div>
 	<div class="col-md-8">
 	    <?php
-			$handle = fopen("network.txt", "r");
+			$handle = fopen("network2.txt", "r");
 			if ($handle) {
 				while (($line = fgets($handle)) !== false) {
 					print $line;

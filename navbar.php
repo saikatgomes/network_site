@@ -1,6 +1,6 @@
 <?php
     if (empty($HOME)) {
-        $HOME="http://pages.cs.wisc.edu/~saikat/projects/network_site/";
+        $HOME="http://pages.cs.wisc.edu/~yashward/thenetwork/network_site/";
     }
     $vision_class="";
     $home_class="";

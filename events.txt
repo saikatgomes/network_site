@@ -1,6 +1,6 @@
 [
   {
-    "Date": "Sep, 2014", 
+    "Date": "Dec, 2014", 
 	"Event_Name": 
 		[
 			"WASDA Reception",
@@ -13,7 +13,20 @@
 		]
   },
   {
-    "Date": "Oct, 2014", 
+    "Date": "Jan, 2015", 
+	"Event_Name": 
+		[
+			"WASDA Reception",
+			"Introductory Meeting reg: Sepcial Education"
+		],
+	"Event_Details":
+		[
+			"Details 1",
+			"Details 2"
+		]
+  },
+    {
+    "Date": "Feb, 2015", 
 	"Event_Name": 
 		[
 			"WASDA Reception",

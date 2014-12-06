@@ -4,7 +4,7 @@
 		    
 <?php
 
-	$json_string = 'events.json';
+	$json_string = 'events1.json';
 	$jsondata = file_get_contents($json_string);
 	$obj = json_decode($jsondata,true);
 
