@@ -8,13 +8,13 @@
 	</div>
 	<div class="col-md-3">
             <img src="img/Rich.jpg" height=150><br>
-            Richard Halverson<br>
-            Co-Director
+           <b> Richard Halverson</b><br>
+            CO-DIRECTOR
 	</div>
 	<div class="col-md-2">
             <img src="img/Jack.jpg" height=150><br>
-            Jack Jorgenson<br>
-            Co-Director
+            <b>Jack Jorgenson</b><br>
+            CO-DIRECTOR
 	</div>
 	<div class="col-md-2">
 		&nbsp;
@@ -22,34 +22,36 @@
 </div>
 <br>
 <div class="row">
+<center>
 	<div class="col-md-2">
 		&nbsp;
 	</div>
 	<div class="col-md-2">
 		&nbsp;
 		<img src="img/l1.jpg" height=150><br>
-        Leslie Lang<br>
-        Project Manager
+        <b>Leslie Lang</b><br>
+        PROJECT MANAGER
 
 	</div>
 	<div class="col-md-2">
 			<img src="img/Alan.jpg" height=150><br>
-            Alan Barnicle<br>
-            Project Assistant<br>
+            <b>Alan Barnicle</b><br>
+            PROJECT ASSISTANT<br>
 	</div>
 	<div class="col-md-2">
 			<img src="img/Placeholder.jpg" height=150><br>
-            Laura Dunek<br>
-            Project Assistant<br>
+            <b>Laura Dunek</b><br>
+            PROJECT ASSISTANT<br>
 	</div>
 	<div class="col-md-2">
 			<img src="img/Tanushree.jpg" height=150><br>
-            Tanushree Rawat<br>
-            Project Assistant<br>
+            <b>Tanushree Rawat</b><br>
+            PROJECT ASSISTANT<br>
 	</div>
 	<div class="col-md-3">
 		&nbsp;
 	</div>
+    </center>
 </div>
 
 
