@@ -36,14 +36,11 @@
     $about_slide_class="";
     $about1_slide_class="";
     $about2_slide_class="";
-    $network_slide_class="";
-    $network2_slide_class="";
     $events_slide_class="";
     $events1_slide_class="";
     $events2_slide_class="";
     $partners_slide_class="";
     $DRP_slide_class="";
-    $DRP2_slide_class="";
 
 	$HR_ACTIVE="";
 
@@ -56,10 +53,7 @@
         if(strcmp($HR_ACTIVE,"ABOUT")==0){
             $about_class =$primary_class;
     		$about_slide_class=$active_class;
-        } elseif(strcmp($HR_ACTIVE,"NETWORK")==0){
-            $network_class =$primary_class;
-    		$network_slide_class=$active_class;
-        } elseif(strcmp($HR_ACTIVE,"EVENTS")==0){
+        }elseif(strcmp($HR_ACTIVE,"EVENTS")==0){
             $events_class =$primary_class;
     		$events_slide_class=$active_class;
         } elseif(strcmp($HR_ACTIVE,"PARTNERS")==0){
@@ -113,43 +107,31 @@
 						<li data-target="#carousel-main" data-slide-to="5" class="btn-primary"></li>
 						<li data-target="#carousel-main" data-slide-to="6" class="btn-primary"></li>
 						<li data-target="#carousel-main" data-slide-to="7" class="btn-primary"></li>
-						<li data-target="#carousel-main" data-slide-to="8" class="btn-primary"></li>
-						<li data-target="#carousel-main" data-slide-to="9" class="btn-primary"></li>
-						<li data-target="#carousel-main" data-slide-to="10" class="btn-primary"></li>
 					</ol>
 
 					<div class="carousel-inner" role="listbox">
-						<div class="item <?php echo $about_slide_class?>" style="height: 600px;">
+						<div class="item <?php echo $about_slide_class?>" style="height: 490px;">
 							<?php include 'about.php';?>
 						</div>
-						<div class="item <?php echo $about1_slide_class?>" style="height: 600px;">
+						<div class="item <?php echo $about1_slide_class?>" style="height: 490px;">
 							<?php include 'about1.php';?>
 						</div>
-						<div class="item <?php echo $about2_slide_class?>" style="height: 600px;">
+						<div class="item <?php echo $about2_slide_class?>" style="height: 490px;">
 							<?php include 'about2.php';?>
 						</div>
-						<div class="item <?php echo $events_slide_class?>" style="height: 600px;">
+						<div class="item <?php echo $events_slide_class?>" style="height: 490px;">
 							<?php include 'events.php';?>
 						</div>
-						<div class="item <?php echo $events1_slide_class?>" style="height: 600px;">
+						<div class="item <?php echo $events1_slide_class?>" style="height: 490px;">
 							<?php include 'events1.php';?>
 						</div>
-						<div class="item <?php echo $events2_slide_class?>" style="height: 600px;">
+						<div class="item <?php echo $events2_slide_class?>" style="height: 490px;">
 							<?php include 'events2.php';?>
 						</div>
-						<div class="item <?php echo $DRP_slide_class?>" style="height: 600px;">
+						<div class="item <?php echo $DRP_slide_class?>" style="height: 490px;">
 							<?php include 'drp.php';?>
 						</div>
-						<div class="item <?php echo $DRP2_slide_class?>" style="height: 600px;">
-							<?php include 'drp2.php';?>
-						</div>
-						<div class="item <?php echo $network_slide_class?>" style="height: 600px;">
-							<?php include 'fellows.php';?>
-						</div>
-						<div class="item <?php echo $network2_slide_class?>" style="height: 600px;">
-							<?php include 'fellows2.php';?>
-						</div>
-						<div class="item <?php echo $partners_slide_class?>" style="height: 600px;">
+						<div class="item <?php echo $partners_slide_class?>" style="height: 490px;">
 							<?php include 'partners.php';?>
 						</div>
 					</div>

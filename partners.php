@@ -16,10 +16,10 @@
 			<img src="img/SOE.jpg" height="175">
 		</div>
 		<div class="col-md-3">
-			<img src="img/WCER.jpg" height="175">
+			<img src="img/WDPI.jpg" height="175">
 		</div>
 		<div class="col-md-3">
-			<img src="img/WDPI.jpg" height="175">
+			<img src="img/WCER.jpg" height="175">
 		</div>
 		<div class="col-md-1">
 			&nbsp;

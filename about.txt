@@ -3,14 +3,9 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<b><i><center>We build community partnerships to transform education throughout Wisconsin and the world.</center></b></i>
-<br>
 <h4><b>Priorities:</b></h4>
 <b>
-<i><font color="red">Knowledge Sharing</font>
+<font color="red">Knowledge Sharing</font>
 <br>
 Provide ready access to innovative resources for educators, researchers, community members, leaders and professional organizations.<br>
 Mobilize and translate research to inform policy, professional learning and best practices.
@@ -27,4 +22,15 @@ Connect researchers with graduate and undergraduate students.
 <br>
 Facilitate the "discovery to delivery" arc of innovative products and services
 resulting from research.
-<br></b></i>
+<br>
+<br>
+These priorities are being realized by the following initiatives :
+<ul>
+<li>NetworkEd Website</li>
+<li>NetworkEd Events</li>
+<li>Fellows</li>
+<ul>
+<li>Doctoral Research Program (DRP) Fellows</li>
+<li>Network Fellows</li></ul>
+</ul>
+<br></b>

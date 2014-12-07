@@ -16,7 +16,7 @@
         <br>
         <img src="img/placeholder.png" align="left" height=325>
 	</div>
-	<div class="col-md-8">
+	<div class="col-md-7">
 	    <?php
 			$handle = fopen("network.txt", "r");
 			if ($handle) {
