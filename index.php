@@ -20,7 +20,7 @@
 
 <?php
     if (empty($HOME)) {
-        $HOME="http://pages.cs.wisc.edu/~yashward/thenetwork/network_site";
+        $HOME="http://pages.cs.wisc.edu/~saikat/projects/network_site/";
     }
     $active_class="active";
     $primary_class="primary";
@@ -99,41 +99,100 @@
 				<div id="carousel-main" class="carousel slide" data-ride="carousel" data-interval="false">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
-						<li data-target="#carousel-main" data-slide-to="0" class="active btn-primary"></li>
-						<li data-target="#carousel-main" data-slide-to="1" class="btn-primary"></li>
-						<li data-target="#carousel-main" data-slide-to="2" class="btn-primary"></li>
-						<li data-target="#carousel-main" data-slide-to="3" class="btn-primary"></li>
-						<li data-target="#carousel-main" data-slide-to="4" class="btn-primary"></li>
-						<li data-target="#carousel-main" data-slide-to="5" class="btn-primary"></li>
-						<li data-target="#carousel-main" data-slide-to="6" class="btn-primary"></li>
-						<li data-target="#carousel-main" data-slide-to="7" class="btn-primary"></li>
+<?php
+    if (!empty($HR_ACTIVE)){
+        if(strcmp($HR_ACTIVE,"ABOUT")==0){
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"0\" class=\"active btn-primary\"></li>";
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"1\" class=\"btn-primary\"></li>";
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"2\" class=\"btn-primary\"></li>";
+        } elseif(strcmp($HR_ACTIVE,"EVENTS")==0){
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"0\" class=\"active btn-primary\"></li>";
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"1\" class=\"btn-primary\"></li>";
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"2\" class=\"btn-primary\"></li>";
+        } elseif(strcmp($HR_ACTIVE,"PARTNERS")==0){
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"0\" class=\"active btn-primary\"></li>";
+        } elseif(strcmp($HR_ACTIVE,"DRP")==0){
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"0\" class=\"active btn-primary\"></li>";
+        } else{
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"0\" class=\"active btn-primary\"></li>";
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"1\" class=\"btn-primary\"></li>";
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"2\" class=\"btn-primary\"></li>";
+        }
+    } else {
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"0\" class=\"active btn-primary\"></li>";
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"1\" class=\"btn-primary\"></li>";
+						echo "<li data-target=\"#carousel-main\" data-slide-to=\"2\" class=\"btn-primary\"></li>";
+	}
+?>
 					</ol>
 
 					<div class="carousel-inner" role="listbox">
-						<div class="item <?php echo $about_slide_class?>" style="height: 490px;">
-							<?php include 'about.php';?>
-						</div>
-						<div class="item <?php echo $about1_slide_class?>" style="height: 490px;">
-							<?php include 'about1.php';?>
-						</div>
-						<div class="item <?php echo $about2_slide_class?>" style="height: 490px;">
-							<?php include 'about2.php';?>
-						</div>
-						<div class="item <?php echo $events_slide_class?>" style="height: 490px;">
-							<?php include 'events.php';?>
-						</div>
-						<div class="item <?php echo $events1_slide_class?>" style="height: 490px;">
-							<?php include 'events1.php';?>
-						</div>
-						<div class="item <?php echo $events2_slide_class?>" style="height: 490px;">
-							<?php include 'events2.php';?>
-						</div>
-						<div class="item <?php echo $DRP_slide_class?>" style="height: 490px;">
-							<?php include 'drp.php';?>
-						</div>
-						<div class="item <?php echo $partners_slide_class?>" style="height: 490px;">
-							<?php include 'partners.php';?>
-						</div>
+
+<?php
+    if (!empty($HR_ACTIVE)){
+        if(strcmp($HR_ACTIVE,"ABOUT")==0){
+
+						echo "<div class=\"item $about_slide_class\" style=\"height: 490px;\">";
+							include 'about.php';
+						echo "</div>";
+						echo "<div class=\"item $about1_slide_class\" style=\"height: 490px;\">";
+							include 'about1.php';
+						echo "</div>";
+						echo "<div class=\"item $about2_slide_class\" style=\"height: 490px;\">";
+							include 'about2.php';
+						echo "</div>";
+
+        } elseif(strcmp($HR_ACTIVE,"EVENTS")==0){
+						
+						echo "<div class=\"item $events_slide_class\" style=\"height: 490px;\">";
+							include 'events.php';
+						echo "</div>";
+						echo "<div class=\"item $events1_slide_class\" style=\"height: 490px;\">";
+							include 'events1.php';
+						echo "</div>";
+						echo "<div class=\"item $events2_slide_class\" style=\"height: 490px;\">";
+							include 'events2.php';
+						echo "</div>";
+
+        } elseif(strcmp($HR_ACTIVE,"PARTNERS")==0){
+						
+						echo "<div class=\"item $partners_slide_class\" style=\"height: 490px;\">";
+							include 'partners.php';
+						echo "</div>";
+
+        } elseif(strcmp($HR_ACTIVE,"DRP")==0){
+						
+						echo "<div class=\"item $DRP_slide_class\" style=\"height: 490px;\">";
+							include 'drp.php';
+						echo "</div>";
+
+
+        } else{
+						
+						echo "<div class=\"item $about_slide_class\" style=\"height: 490px;\">";
+							include 'about.php';
+						echo "</div>";
+						echo "<div class=\"item $about1_slide_class\" style=\"height: 490px;\">";
+							include 'about1.php';
+						echo "</div>";
+						echo "<div class=\"item $about2_slide_class\" style=\"height: 490px;\">";
+							include 'about2.php';
+						echo "</div>";
+
+        }
+    } else {
+						
+						echo "<div class=\"item $about_slide_class\" style=\"height: 490px;\">";
+							include 'about.php';
+						echo "</div>";
+						echo "<div class=\"item $about1_slide_class\" style=\"height: 490px;\">";
+							include 'about1.php';
+						echo "</div>";
+						echo "<div class=\"item $about2_slide_class\" style=\"height: 490px;\">";
+							include 'about2.php';
+						echo "</div>";
+	}
+?>
 					</div>
 
 					<a class="left carousel-control" href="#carousel-main" role="button" data-slide="prev">
