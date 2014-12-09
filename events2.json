@@ -1,10 +1,24 @@
-[
+[{
+    "Date": "Nov,2014 (Archives)", 
+	"Event_Name": 
+		[
+			"American Education Week - EOP Event"
+		],
+	"Event_Link": 
+		[
+			"#"
+		],
+	"Event_Details":
+		[
+			"Network information table present"
+		]
+  },
   {
     "Date": "Oct, 2014 (Archives)", 
 	"Event_Name": 
 		[
-			"WASDA Reception",
-			"Introductory Meeting reg: Sepcial Education"
+			"Wisconsin Rising Film Showing",
+			"Network Information Session"
 		],
 	"Event_Link": 
 		[
@@ -13,16 +27,16 @@
 		],
 	"Event_Details":
 		[
-			"Co sponsored by WASDA, ELPA and the Network",
-			"Carolyn Stanford-Taylor, DPI<br>Barb Van Heron, DPI<br>Kimber Wilkerson, RPSE"
+			"co-sponsored by ELPA,EPS and the Network",
+            "WCER Business Office and Technical Services"
 		]
   },
   {
     "Date": "Sep, 2014 (Archives)", 
 	"Event_Name": 
 		[
-			"Wisconsin Rising Film Showing",
-			"Network Info Session"
+			"WASDA Reception",
+			"Introductory Meeting reg: Special Education"
 		],
 	"Event_Link": 
 		[
@@ -31,22 +45,8 @@
 		],
 	"Event_Details":
 		[
-			"Co sponsored by ELPA. EPS and The Network",
-			"WCER Business Office & Technical Services"
+			"co-sponsored by ELPA,WASPA and The Network",
+			"Carolyn Stanford-Taylor, DPI<br>Barb Van Haren, DPI<br>Kimber Wilkerson, RPSE"
 		]
-  },
-  {
-    "Date": "Aug,2014 (Archives)", 
-	"Event_Name": 
-		[
-			"American Education Week"
-		],
-	"Event_Link": 
-		[
-			"#"
-		],
-	"Event_Details":
-		[
-			"Network Info Table Presentation"
-		]
-  }]
+  }
+  ]

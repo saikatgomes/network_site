@@ -12,7 +12,7 @@
 			</b>
 			</center>
 		</h3>
-<b><i><center><font color="black">We build community partnerships to transform education throughout Wisconsin and the world.</font></center></b></i>
+<b><i><center><font color="black">We build partnerships to transform education throughout Wisconsin and the world.</font></center></b></i>
 	</div>
 	<div class="col-md-1">
 		&nbsp;

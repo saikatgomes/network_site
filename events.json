@@ -3,43 +3,37 @@
     "Date": "Dec, 2014", 
 	"Event_Name": 
 		[
-			"WASDA Reception",
-			"Introductory Meeting reg: Sepcial Education"
+			"DRP Advisory Board Meeting"
 		],
 	"Event_Link": 
 		[
-			"#",
 			"#"
 		],
 	"Event_Details":
 		[
-			"Co sponsored by WASDA, ELPA and the Network",
-			"Carolyn Stanford-Taylor, DPI<br>Barb Van Heron, DPI<br>Kimber Wilkerson, RPSE"
+			""
 		]
   },
   {
     "Date": "Jan, 2015", 
 	"Event_Name": 
 		[
-			"Wisconsin Rising Film Showing",
-			"Network Info Session"
+			"Opportunity Gap Event"
 		],
 	"Event_Link": 
 		[
-			"#",
 			"#"
 		],
 	"Event_Details":
 		[
-			"Co sponsored by ELPA. EPS and The Network",
-			"WCER Business Office & Technical Services"
+			""
 		]
   },
   {
     "Date": "Feb, 2015", 
 	"Event_Name": 
 		[
-			"American Education Week"
+			"DRP Poster Fair"
 		],
 	"Event_Link": 
 		[
@@ -47,7 +41,7 @@
 		],
 	"Event_Details":
 		[
-			"Network Info Table Presentation"
+			""
 		]
   }
   ]

@@ -1,28 +1,31 @@
 [
   {
-    "Date": "March, 2015", 
-	"Event_Name": 
-		[
-			"WASDA Reception",
-			"Introductory Meeting reg: Sepcial Education"
-		],
-	"Event_Link": 
-		[
-			"#",
-			"#"
-		],
-	"Event_Details":
-		[
-			"Co sponsored by WASDA, ELPA and the Network",
-			"Carolyn Stanford-Taylor, DPI"
-		]
-  },
-  {
     "Date": "April, 2015", 
 	"Event_Name": 
 		[
-			"Wisconsin Rising Film Showing",
-			"Network Info Session"
+			"CESA Conference",
+			"EdCamp",
+            "Girl Rising Film Screening"
+		],
+	"Event_Link": 
+		[
+			"#",
+			"#",
+            "#"
+		],
+	"Event_Details":
+		[
+			"co-sponsored by WCER and The Network",
+			"sponsored by The Network",
+            "co-sponsored by The Network, Morgridge Center for Public Service, WCER, WISCAPE and She's the First  "
+		]
+  },
+  {
+    "Date": "May, 2015", 
+	"Event_Name": 
+		[
+			"PSN Action Research Event",
+			"Network EdCamp"
 		],
 	"Event_Link": 
 		[
@@ -31,15 +34,15 @@
 		],
 	"Event_Details":
 		[
-			"Co sponsored by ELPA. EPS and The Network",
-			"WCER Business Office & Technical Services"
+			"",
+			""
 		]
   },
   {
-    "Date": "More Events : Coming Soon", 
+    "Date": "More Events", 
 	"Event_Name": 
 		[
-			"American Education Week"
+			"Coming Soon"
 		],
 	"Event_Link": 
 		[
@@ -47,7 +50,7 @@
 		],
 	"Event_Details":
 		[
-			"Network Info Table Presentation"
+			""
 		]
   }
   ]
